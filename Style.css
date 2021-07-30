@@ -145,3 +145,14 @@ footer p {
       width: 20%;
   }
 }
+@media (max-width: 670px ) {
+    .container { 
+        height: 100%;
+    }
+    .sidebar nav ul {
+        max-width: 800px;}
+    .sidebar nav ul li a{
+        font-size: 22px;
+        margin-right: 5px;
+    }
+}
