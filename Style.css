@@ -104,7 +104,7 @@ footer ul li img {
 footer p {
   font-size: 0.8em;
 }
-@media (max-width: 670px){
+@media (min-width: 1040px){
   .container {
       grid-template-areas:"sidebar content" "sidebar footer" ;
       grid-template-rows: 1fr auto ;
